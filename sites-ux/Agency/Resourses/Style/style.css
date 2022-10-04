@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  font-family: Inter;
+  overflow: hidden;
 }
 
 ol, ul {
@@ -54,11 +56,18 @@ table {
 /*MY STYLES*/
 
 header{
-  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content{
+  width: 90%;
   height: 8vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+ 
+  
 }
 
 a{
@@ -73,4 +82,18 @@ nav{
   display: flex;
   width: 28vw;
   justify-content: space-between;
+}
+
+.header-btn{
+  border: none;
+  background-color: #0099FF;
+  width: 200px;
+  height: 54px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-a{
+  color: white;
+  font-size: 1vw;
 }
