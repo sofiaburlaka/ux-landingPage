@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: Inter;
-  overflow: hidden;
 }
 
 ol, ul {
@@ -106,7 +105,7 @@ section{
 }
 
 .main-content{
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
@@ -152,4 +151,91 @@ section{
 
 .a-main{
   color: #0099FF;
+}
+
+.f-b-img{
+  width: 35vw;
+  height: 35vw;
+}
+
+/*SERVICES*/
+
+.services {
+  margin-top: 5vw;
+  display: flex;
+  padding-top: 4vw ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 153, 255, 0.04);
+}
+.serv-h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1vw;
+}
+.serv-h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  margin-top: 2vw;
+}
+.serv-p {
+  font-weight: 400;
+  font-size: 1vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+.blocks {
+  display: flex;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  width: 70vw;
+  justify-content: space-around;
+}
+.provide-blocks {
+  box-shadow: 0px 10px 20px rgba(164, 217, 253, 0.15);
+  border-radius: 4px; 
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw;
+
+}
+.serv-h2 {
+  font-weight: 700;
+  font-size:1.5vw;
+}
+.serv-sec-p {
+  font-weight: 400;
+  font-size: 0.7vw;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.img-serv{
+  width: 7vw;
+  height: 7vw;
+  margin-bottom: 2vw;
+}
+
+/*ABOUT US*/
+
+.about-us-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img{
+  margin-right: 5vw;
+}
+
+.about-h3{
+  margin-bottom: 1vw;
 }
