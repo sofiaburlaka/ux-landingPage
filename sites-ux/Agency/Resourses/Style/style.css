@@ -66,8 +66,6 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
-  
 }
 
 a{
@@ -96,4 +94,62 @@ nav{
 .btn-a{
   color: white;
   font-size: 1vw;
+}
+
+/*MAIN*/
+
+section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content{
+  width: 90%;
+  height: auto;
+}
+
+.first-block{
+  display: flex; 
+  justify-content: center;
+  margin-top: 5vw;
+}
+
+.f-b-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4vw;
+}
+
+.btns{
+  display: flex;
+}
+
+.h1{
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.main-p{
+  font-size: 1vw;
+  line-height: 160%;
+  margin-top: 2vw;
+}
+
+.main-btn{
+  margin-top: 2vw;
+}
+
+.main-s-btn{
+  margin-top: 2vw;
+  background-color: rgba(245, 245, 220, 0);
+  color: #0069ae;
+  border-color: #0069ae;
+  border: 3px solid;
+  margin-left: 10px;
+}
+
+.a-main{
+  color: #0099FF;
 }
