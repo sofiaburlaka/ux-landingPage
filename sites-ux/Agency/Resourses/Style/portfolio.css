@@ -135,6 +135,20 @@ nav{
     margin-bottom: 5vw;
   }
 
+  .mind{
+    width: 80%;
+    height: 20vw;
+    background-color: #333333;
+    margin-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .mind-text p, h1{
+    text-align: left;
+    color: #fff;
+  }
  
 
   
