@@ -129,7 +129,7 @@ section{
 
 .h1{
   font-weight: 700;
-  font-size: 60px;
+  font-size: 6vw;
 }
 
 .main-p{
@@ -478,4 +478,8 @@ align-items: center;
     margin-right: 15px;
   }
   
-  
+  .wrap{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+  }

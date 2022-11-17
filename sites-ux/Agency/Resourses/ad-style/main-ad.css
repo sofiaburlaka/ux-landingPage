@@ -1,0 +1,220 @@
+@media(max-width: 1024px){
+    .header-btn{
+        width: 20vw;
+        height: 5vw;
+        
+    }
+    .btn-a{
+        font-size: 1.7vw;
+    }
+
+    a{
+        font-size: 1.7vw;
+    }
+    .logo-img{
+        width: 15vw;
+    }
+
+    .main-p{
+        font-size: 1.6vw;
+    }
+
+    .serv-h3{
+        font-size: 2vw;
+    }
+
+    .serv-h1{
+        font-size: 4vw;
+    }
+
+    .serv-p{
+        font-size: 1.7vw;
+    }
+
+    .blocks{
+        width: 90vw;
+    }
+
+    .serv-sec-p{
+        font-size: 1vw;
+    }
+    
+    .img-serv {
+        width: 9vw;
+        height: 9vw;
+    }
+    .serv-h2 {
+        font-size: 2vw;
+       
+    } 
+    .serv-sec-p{
+        font-size: 1.3vw;
+    }
+    .card-cust-f, .card-cust-s, .card-cust-th{
+        height: 25vw;
+        margin: 1vw;
+    }
+    .cust-p{
+        font-size: 1.3vw;
+    }
+    .fall-blocks{
+        width: 75vw;
+    }
+    .fall-text-first{
+        font-size: 1.4vw;
+    }
+}
+
+@media(max-width: 500px){
+    .blocks{
+        flex-direction: column;
+    }
+    .wrap{
+        width: 100%;
+        margin-bottom: 4vw;
+    }
+
+    .img-serv {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .serv-h2 {
+        font-size: 4vw;
+    }
+    .serv-sec-p {
+        font-size: 2vw;
+    }
+    .provide-blocks{
+        padding: 6vw;
+    }
+
+    .serv-h3{
+        font-size: 3.2vw;
+    }
+
+    .serv-h1{
+        font-size: 6.2vw;
+    }
+
+    .serv-p{
+        font-size: 2.2vw;
+    }
+
+    .about-us-block, .our-team, .customer-testimonials {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .header-btn{
+        width: 20vw;
+        height: 5vw;
+        
+    }
+    .btn-a{
+        font-size: 2vw;
+    }
+
+    a{
+        font-size: 1.7vw;
+    }
+    .logo-img{
+        width: 15vw;
+    }
+
+    .main-p{
+        font-size: 1.8vw;
+    }
+    .portfolio-photos{
+        flex-direction: column;
+    }
+    .block-portf{
+        width: 40vw;
+        height: 63vw;
+    }
+    .port-img{
+        width: 40vw;
+        height: 40vw;
+    }
+    .name{
+        font-size: 3.7vw;
+    }
+    .work{
+        font-size: 1.7vw;
+    }
+    .read-img{
+        width: 10vw;
+    }
+    .avatar{
+        width: 10vw;
+    }
+    .member-photos{
+        flex-direction: column;
+    }
+    .wrap-sec{
+        display: flex;
+    }
+
+    .our-img {
+        width: 30vw;
+        height: 37vw;
+    }
+    .white-block {
+        width: 80%;
+        height: 11vw;
+        top: 30vw;
+    }
+
+
+    .name-f{
+        font-size: 2.7vw;
+    }
+
+    .work-f{
+        font-size: 2vw;
+    }
+
+    .social {
+        width: 10vw;
+        height: 1.6vw;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .fall-text-first {
+        font-size: 2.4vw;
+        width: 69vw;
+    }
+    .lala{
+        height: 90px;
+    }
+    .fall-bl-first{
+        font-size: 5vw;
+    }
+
+    .header-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media(max-width: 320px){
+    .main-s-btn{
+        border: 1px solid;
+    }
+    .btn-a {
+        font-size: 2vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-a{
+        margin-right: 4vw;
+        font-size: 2vw;
+    }
+
+}
